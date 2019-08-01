@@ -11,6 +11,13 @@ function fixedEncodeURI(str) {
     .replace(/%5D/g, "]");
 }
 
+// let href = 'http://www.google.com';
+// chrome.runtime.onMessage.addListener(function(message, sender, reply) {
+//   if (message.href) {
+//     href = message.href;
+//   }
+// });
+
 chrome.contextMenus.onClicked.addListener(function(clickData) {
   if (clickData.menuItemId == "checkMediaBias" && clickData.selectionText) {
     var moreInfo = "contextMenu/context_menu.html";
@@ -28,4 +35,4 @@ chrome.contextMenus.onClicked.addListener(function(clickData) {
 });
 
 
-
+// alert('href: ' + href);

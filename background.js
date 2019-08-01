@@ -1,4 +1,3 @@
-var links = [...document.body.getElementsByTagName("a")];
 var greens = [
   "abcnews.go.com",
   "afp.com",
@@ -91,6 +90,11 @@ var reds = [
   "worldtruth.tv"
 ];
 
+// $(document).on('contextmenu', 'a', function(e) {
+//   chrome.runtime.sendMessage({ href: e.currentTarget.href });
+// });
+
+var links = [...document.body.getElementsByTagName("a")];
 
 for (var i = 0; i < links.length; i++) {
   if (!greens.some(green => links[i].href.includes(green))) {

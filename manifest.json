@@ -20,7 +20,7 @@
     "default_title": "Media Bias Key"
   },
   "background": {
-    "scripts": ["contextMenu/eventPage.js"],
+    "scripts": ["contextMenu/eventPage.js", "background.js"],
     "persistent": false
   },
 
