@@ -11,8 +11,8 @@ I'm learning as I go and I have a lot of stretch goals!
 Currently, sources are hard-coded into background file, as is the context menu html. Future versions will read and display object information from sources.json file.
 
 ## Specs 
-1. Follow Chrome Extensions setup instructions
-2. Search document for string matches 
+1. Create manifest.json according to Chrome Extension documentation
+2. Search DOM for string matches 
 3. Create color components for certain string matches
 4. Create popup color key on chart background when icon is clicked
 5. Create context menu item for more info
